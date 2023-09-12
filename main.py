@@ -6,7 +6,7 @@ import segno
 
 
 load_dotenv()
-TOKEN = os.getenv('TOKEN')
+TOKEN = os.getenv('BOT_TOKEN')
 
 intents = discord.Intents.default()
 intents.message_content = True

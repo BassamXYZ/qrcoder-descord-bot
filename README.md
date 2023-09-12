@@ -7,12 +7,37 @@ This is an open source project from [Bassam Ahmad](http://bassamahmad.netlify.ap
 - discord.py
 - sengo
 
-## Installation
+## Run Locally
 
-Run:
+Clone the project
 
-1. pip install requirements.txt
-2. python main.py
+```bash
+  git clone https://github.com/BassamXYZ/qrcoder-descord-bot.git
+```
+
+Go to the project directory
+
+```bash
+  cd discord-bot
+```
+
+Install dependencies
+
+```bash
+  pip install requirements.txt
+```
+
+Start
+
+```bash
+  python main.py
+```
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`BOT_TOKEN`
 
 ## Licence
 
